@@ -73,3 +73,115 @@ body {
     width: 100%;
     margin-top: 10px;
   }
+  #header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #222;
+    border: 5px solid #222;
+    color: rgb(200, 200, 200);
+  
+  }
+  
+  #header a{
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 20px;
+  }
+  
+  #headerleft{
+    text-align: left;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    width: 40%;
+    height: 100%;
+  }
+  
+  #headerright{
+  
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    width: 60%;
+    height: 100%;
+  }
+  
+  #footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 100%;
+    background-color: #222;
+    border: 5px solid #222;
+    color: rgb(200, 200, 200);
+    gap: 15px;
+  }
+  
+  #footer a{
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    margin-bottom: 50px;
+    
+  }
+  
+  #footer h3{
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    margin-top: 10px;
+    
+  }
+  
+  #footerleft{
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 20px;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+  }
+  
+  #footerright{
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 20px;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+  }
+  
+  .logo{
+    height: 40px;
+    width: 40px;
+    margin: auto;
+    display: block;
+    margin-top: 4px;
+  }
+  
+  .logodiv{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: #fdfdfd99;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  
+  }
+  
