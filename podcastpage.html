@@ -5,9 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style/podcastpage.css">
-    
+    <link rel="stylesheet" href="./style/home.css">
 </head>
 <body>
+    <div id="header">
+         <div id="headerleft">
+            <div class="logodiv">
+               <img class="logo" src="./assets/logo.png"/>
+            </div>
+            <h2><a href="home.html">CineWOW</a></h2>
+         </div>
+         <div id="headerright">
+             <h3><a class="headeritem" href="podcastpage.html"> Podcasts </a></h3>
+             <h3><a class="headeritem" href="movies.html"> Movies </a></h3>
+             <h3><a class="headeritem" href="aboutus.html"> About Us </a></h3>
+         </div>
+     </div>
+
+     
     <div class="container">
         <div class="podcast-listing" id="podcastListing">
           <!-- Podcast listing will be populated dynamically -->
@@ -16,6 +31,22 @@
           <!-- Podcast player content will be populated dynamically -->
         </div>
       </div>
+
+
+      <div id="footer">
+        <div id="footerleft">
+           <h2> Page Links </h2><br>
+           <h3><a class="footeritem" href="home.html"> Home </a></h3>
+           <h3><a class="footeritem" href="podcast.html"> Podcasts </a></h3>
+           <h3><a class="footeritem" href="movies.html"> Movies </a></h2>
+        </div>
+        <div id="footerright">
+           <h2> Contact </h2><br>
+           <h3><a class="footeritem" href=""> cinewow@cinewow.wow </a></h3>
+           <h3><a class="footeritem" href=""> +0 123456789</a></h3>
+           <h3><a class="footeritem" href="aboutus.html"> About Us </a></h3>
+        </div>
+     </div>
       <script src="./scripts/podcastpage.js"></script>
 </body>
 </html>
