@@ -1,0 +1,138 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+
+#vidall{
+
+    width: 100%;
+    max-height: auto;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+#vidall .moviepagetitle{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    float: right;
+}
+
+.video-container{
+    max-width: 80%;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.video-container .main-video-container{
+    flex:1 1 700px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px #222;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.video-container .main-video-container .main-video{
+    margin-bottom: 7px;
+    width: 100%;
+}
+
+.video-container .main-video-container .main-vid-title{
+    font-size: 20px;
+    color: #222;
+}
+
+.video-container .video-list-container{
+    flex:1 1 20%;
+    height: 450px;
+    width: 20%;
+    overflow-y: scroll;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px #222;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.video-container .video-list-container::-webkit-scrollbar{
+    width: 10px;
+}
+
+.video-container .video-list-container::-webkit-scrollbar-track{
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.video-container .video-list-container::-webkit-scrollbar-thumb{
+    background-color: #222;
+    border-radius: 5px;
+}
+
+.video-container .video-list-container .list{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    background-color: #dddddd;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+}
+
+.video-container .video-list-container .list:last-child{
+    margin-bottom: 0;
+
+}
+
+.video-container .video-list-container .list.active{
+    background-color: #333;
+}
+
+.video-container .video-list-container .list.active .list-title{
+    color: #fff;
+}
+
+.video-container .video-list-container .list .list-video{
+    width: 100px;
+}
+
+.video-container .video-list-container .list .list-title{
+    font-size: 17px;
+    color: #222;
+}
+
+
+
+
+@media (max-width: 1280px){
+    .video-container{
+        margin:0; 
+    }
+} 
+
+@media (max-width: 450px){
+    .video-container .main-video-container .main-vid-title{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .video-container .video-list-container .list{
+        flex-flow: column;
+        gap: 10px;
+    }
+
+    .video-container .video-list-container .list .list-video{
+        width: 100%;
+    }
+
+    .video-container .video-list-container .list .list-title{
+        font-size: 15px;
+        text-align: center;
+    }
+} 
+
