@@ -97,6 +97,7 @@
     color: rgb(34, 34, 35);
     font-size: 20px;
     line-height: 30px;
+    font-family: 'Lato', sans-serif;
   }
 
   .podcast-buttons {
@@ -180,6 +181,7 @@
     color: rgb(34, 34, 35);
     font-size: 18px;
     line-height: 27px;
+    font-family: 'Lato', sans-serif;
   }
 
   .podcast-container1 {
