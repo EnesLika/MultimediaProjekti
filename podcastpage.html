@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style/podcastpage.css">
     <link rel="stylesheet" href="./style/home.css">
+    <link rel="stylesheet" href="style/overlay.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Karla:wght@400;700&display=swap">
 </head>
 <body>
     <div id="header">
@@ -22,13 +24,13 @@
          </div>
      </div>
 
-     
+     <div id="loading-overlay" class="loading-overlay">
+      <div class="loading-spinner"></div>
+    </div>
     <div class="container">
         <div class="podcast-listing" id="podcastListing">
-          <!-- Podcast listing will be populated dynamically -->
         </div>
         <div class="podcast-player" id="podcastPlayer">
-          <!-- Podcast player content will be populated dynamically -->
         </div>
       </div>
 

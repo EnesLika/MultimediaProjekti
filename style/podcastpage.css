@@ -66,6 +66,27 @@ body {
     width: 100%;
     margin-top: 10px;
   }
+  #prevButton
+  {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 30px;
+    background-color: #79D490;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+  }
+ #nextButton
+  {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 30px;
+    background-color: #79D490;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
 
   .navigation-buttons {
     display: flex;

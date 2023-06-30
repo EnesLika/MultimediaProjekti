@@ -74,10 +74,12 @@ const podcasts = [
     audioPlayer.src = podcast.audio;
 
     const prevButton = document.createElement('button');
+    prevButton.id = 'prevButton';
     prevButton.textContent = 'Previous';
     prevButton.addEventListener('click', () => showPodcast(index === 0 ? podcasts.length - 1 : index - 1));
 
     const nextButton = document.createElement('button');
+    nextButton.id = 'nextButton';
     nextButton.textContent = 'Next';
     nextButton.addEventListener('click', () => showPodcast(index === podcasts.length - 1 ? 0 : index + 1));
 

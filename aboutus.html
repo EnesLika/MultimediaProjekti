@@ -3,6 +3,8 @@
 <head>
     <title>About Us</title>
   <link rel="stylesheet" href="style/aboutus.css">
+  <link rel="stylesheet" href="style/overlay.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Karla:wght@400;700&display=swap">
 </head>
 <body>
   <div class="container">
@@ -19,7 +21,10 @@
           <h3><a class="headeritem" href="aboutus.html"> About Us </a></h3>
       </div>
   </div>
-      <section class="aboutus1">
+  <div id="loading-overlay" class="loading-overlay">
+    <div class="loading-spinner"></div>
+  </div>
+    <section class="aboutus1">
         <div class="aboutus-content">
               <h2 class="aboutus-heading">Our Story              </h2>
               <p class="aboutus-caption">
@@ -35,8 +40,8 @@
         />
         </div>
        
-      </section>
-      <section class="aboutus2">
+    </section>
+    <section class="aboutus2">
         <div class="aboutus-container">
           <img
             alt="image"
@@ -56,20 +61,21 @@
                   <li>Inspire audiences to see the world through new lenses.</li>
                 </ul>
         </div>
-      </section>
-      <div id="footer">
-        <div id="footerleft">
+    </section>
+    <div id="footer">
+      <div id="footerleft">
            <h2> Page Links </h2><br>
            <h3><a class="footeritem" href="home.html"> Home </a></h3>
            <h3><a class="footeritem" href="podcast.html"> Podcasts </a></h3>
            <h3><a class="footeritem" href="movies.html"> Movies </a></h2>
-        </div>
-        <div id="footerright">
+      </div>
+      <div id="footerright">
            <h2> Contact </h2><br>
            <h3><a class="footeritem" href=""> cinewow@cinewow.wow </a></h3>
            <h3><a class="footeritem" href=""> +0 123456789</a></h3>
            <h3><a class="footeritem" href="aboutus.html"> About Us </a></h3>
-        </div>
+      </div>
     </div>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
